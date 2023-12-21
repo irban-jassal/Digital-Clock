@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+   align-items: center;
+    height: 100vh;
+   justify-content: center;
+background-image: url("https://images.unsplash.com/photo-1433838552652-f9a46b332c40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+background-size: cover;
+}
+H2{
+    text-align: center;
+    font-size: 30px;
+   letter-spacing: 5px;
+
+
+}
+.digitalClock{
+    display: flex;
+    position: relative;
+}
+#day_year{
+    display: flex;
+   font-family:serif;
+
+font-size: 30px;
+letter-spacing: 3px;
+background-color: #F7F1E5;
+color: #1d1d02;
+opacity: 60%;
+font-weight: 900;
+}
+
+.clock{
+   margin: 7px;
+ 
+}
+#day_year{
+    margin: 8px;
+}
+.digitalClock span{
+   background-color: #898121;
+   opacity: 65%;
+  color: azure;
+  font-size: 35px;
+display: flex;
+height: 80px;
+width: 100px;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.digitalClock .text {
+    text-transform: uppercase;
+    height: 40px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #34330a;
+    letter-spacing: 2px;
+ font-weight: bolder;
+ color: azure;
+ opacity: 80%;
+
+}
+
+.digitalClock #Timeera{
+    bottom: 15px;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #A84448;
+    opacity: 90%;
+}
